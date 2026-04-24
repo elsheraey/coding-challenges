@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url("../fonts/FiraSans/FiraSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url("../fonts/FiraSans/FiraSans-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url("../fonts/FiraSans/FiraSans-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url("../fonts/BarlowSemiCondensed/BarlowSemiCondensed-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url("../fonts/BarlowSemiCondensed/BarlowSemiCondensed-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url("../fonts/BarlowSemiCondensed/BarlowSemiCondensed-SemiBold.ttf");
+  font-weight: 600;
+}
+
+/* 
+  NOTE: This will act on all buttons which is not ideal in a real setting... 
+*/
+button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "netninja-tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server public",
+    "watch-css": "tailwindcss -i ./src/styles.css -o ./public/styles.css --watch ",
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "dev": "concurrently \"npm run watch-css\" \"npm run start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsheraey/netninja-tailwind-css.git"
+  },
+  "author": "Mourad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elsheraey/netninja-tailwind-css/issues"
+  },
+  "homepage": "https://github.com/elsheraey/netninja-tailwind-css#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.2.7"
+  }
+}
